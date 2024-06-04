@@ -1,0 +1,13 @@
+/**index.wxss**/
+.container {
+  padding: 20px;
+}
+
+text {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+image {
+  width: 100%;
+}

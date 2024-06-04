@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <text>Hello World</text>
+  <image src="{{'/assets/sample.jpg'}}" mode="widthFix"></image>
+</view>
