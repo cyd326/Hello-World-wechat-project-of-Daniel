@@ -1,5 +1,14 @@
-<!--index.wxml-->
+<!-- pages/index/index.wxml -->
 <view class="container">
-  <text>Hello World</text>
-  <image src="{{'/assets/sample.jpg'}}" mode="widthFix"></image>
+  <text>{{message}}</text>
+  <image src="{{imageUrl}}" mode="widthFix"></image>
+
+  <!-- Display API data -->
+  <view wx:if="{{apiData}}">
+    <text>API Data:</text>
+    <view>{{apiData}}</view>
+  </view>
+  <view wx:else>
+    <text>Loading data...</text>
+  </view>
 </view>
